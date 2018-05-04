@@ -6,7 +6,7 @@ import org.apache.spark.SparkContext
 object WordCount {
 
   def main(args: Array[String]) = {
-
+    //Test
     //Start the Spark context
     val conf = new SparkConf()
       .setAppName("WordCount")
